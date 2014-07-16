@@ -10,5 +10,7 @@ year = params['year']
 page =    File.read('./calendar.html')
 s = a.convert(year)
 d = b.convert(day)
-page =  page + month.to_s + "\s" + d.to_s + "\s" + year.to_s + "\s" + s  
+page =  page + month.to_s + "\s" + d.to_s + "\s" + year.to_s 
+page = page + s 
 end
+
