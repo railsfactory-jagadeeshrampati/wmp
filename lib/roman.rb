@@ -1,6 +1,6 @@
 class Roman
 
-  def convert(input)
+  def self.convert(input)
        String s = ""
          i = 0
        i = input.to_i

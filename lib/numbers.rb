@@ -1,6 +1,5 @@
 class Numbers
-
-  def convert(number)
+  def self.convert(number)
       num = number.to_i
         if num <20 and num>10
              "#{number.to_i}th"
@@ -11,7 +10,7 @@ class Numbers
           elsif num%10 == 3
             "#{number.to_i}rd"
          else
-                 "#{number.to_i}th"
+            "#{number.to_i}th"
      end
                              
 end 
